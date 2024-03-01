@@ -1593,7 +1593,7 @@ header.style-1 .header-logo {
   }
 }
 header.style-1 .header-logo img {
-  min-width: 120px;
+  min-width: 80px;
   max-width: 100%;
 }
 header.style-1 .hotline {
@@ -3245,7 +3245,7 @@ header.style-3 .main-menu ul li.menu-item-has-children > i {
   margin-right: 10px;
 }
 .banner-section1 .banner-wrapper .banner-content h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 700;
   color: var(--white);
   font-family: var(--font-cormorant);
@@ -3254,7 +3254,7 @@ header.style-3 .main-menu ul li.menu-item-has-children > i {
 }
 @media (max-width: 1399px) {
   .banner-section1 .banner-wrapper .banner-content h1 {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
   }
 }
 @media (max-width: 1199px) {
@@ -4065,9 +4065,9 @@ header.style-3 .main-menu ul li.menu-item-has-children > i {
 }
 .new-items1 .new-items-wrap2 img {
   border-radius: 50%;
-  -webkit-animation: CSSright 60s linear infinite running;
-          animation: CSSright 60s linear infinite running;
-}
+  /* -webkit-animation: CSSright 60s linear infinite running;
+          animation: CSSright 60s linear infinite running;*/
+} 
 .new-items1 .new-items-wrap2 .items-img {
   position: relative;
 }
@@ -4268,7 +4268,7 @@ header.style-3 .main-menu ul li.menu-item-has-children > i {
    11. Popular Items List
 =======================================*/
 .popular-items1 {
-  background-image: url(../images/bg/populer-bg.png);
+  background-image: url(../images/bg/populer-bg22.jpg);
   padding: 100px 0px;
 }
 @media (max-width: 991px) {
@@ -4926,7 +4926,7 @@ header.style-3 .main-menu ul li.menu-item-has-children > i {
 }
 @media (max-width: 767px) {
   .testimonial-video-area .testi-video-wrap img {
-    min-height: 300px;
+    min-height: 210px;
   }
 }
 .testimonial-video-area .testi-video-wrap .video-icon {
@@ -5267,7 +5267,7 @@ header.style-3 .main-menu ul li.menu-item-has-children > i {
    11. Footer Area   
 =======================================*/
 footer {
-  background-image: linear-gradient(rgba(9, 22, 29, 0.9), rgba(9, 22, 29, 0.9)), url(../images/bg/footer-bg.png);
+  background-image: linear-gradient(rgba(9, 22, 29, 0.9), rgba(9, 22, 29, 0.9)), url(../images/bg/bredcumb-bg4.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -6485,7 +6485,7 @@ footer .footer-btm .privacy-policy p a:hover {
 }
 .home3-banner .social-area ul {
   margin: 0;
-  padding: 100px 0;
+  padding: 70px 0 30px 0;
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -6606,7 +6606,7 @@ footer .footer-btm .privacy-policy p a:hover {
   }
 }
 .home3-banner .banner-content {
-  max-width: 870px;
+  max-width: 700px;
   width: 100%;
   margin: 0 auto;
   position: absolute;
@@ -6626,7 +6626,7 @@ footer .footer-btm .privacy-policy p a:hover {
   margin-left: 8px;
 }
 .home3-banner .banner-content h1 {
-  font-size: 5.313rem;
+  font-size: 3.013rem;
   font-weight: 700;
   color: var(--white);
   font-family: var(--font-cormorant);
@@ -6635,7 +6635,7 @@ footer .footer-btm .privacy-policy p a:hover {
 }
 @media (max-width: 576px) {
   .home3-banner .banner-content h1 {
-    font-size: 3.3rem;
+    font-size: 2.8rem;
     line-height: 1.1;
   }
 }
@@ -7971,7 +7971,7 @@ footer .footer-btm .privacy-policy p a:hover {
   z-index: 9;
   display: flex;
   align-items: center;
-  background-image: url(../images/bg/bredcumb-bg.png);
+  background-image: url(../images/bg/bredcumb-bg3.jpg);
   background-size: cover;
   padding: 260px 0px 140px;
 }
@@ -12555,3 +12555,22 @@ footer .footer-btm .privacy-policy p a:hover {
   font-size: 18px;
   font-family: var(--font-Jost);
 }/*# sourceMappingURL=style.css.map */
+
+
+/* CUSTOM FONTS */
+.custom-font{
+  font-family: cormorant-garamond;
+  font-weight: 500;
+  color: black;
+}
+
+#contact-form .testas{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  color: white;
+}
+
+#price-calculator__item{
+  width: 30px !important;
+}
