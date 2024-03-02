@@ -1593,7 +1593,7 @@ header.style-1 .header-logo {
   }
 }
 header.style-1 .header-logo img {
-  min-width: 80px;
+  width: 50px;
   max-width: 100%;
 }
 header.style-1 .hotline {
@@ -2111,7 +2111,7 @@ header.style-2 .header-logo {
   }
 }
 header.style-2 .header-logo img {
-  min-width: 120px;
+  max-width: 120px;
   max-width: 100%;
 }
 header.style-2 .hotline {
@@ -2564,7 +2564,7 @@ header.style-3 .header-logo {
   }
 }
 header.style-3 .header-logo img {
-  min-width: 120px;
+  max-width: 120px;
   max-width: 100%;
 }
 header.style-3 .menu-close-btn i {
