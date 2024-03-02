@@ -12558,6 +12558,8 @@ footer .footer-btm .privacy-policy p a:hover {
 }/*# sourceMappingURL=style.css.map */
 
 
+/* ####################################################################### */
+
 /* CUSTOM FONTS */
 .custom-font{
   font-family: cormorant-garamond;
@@ -12574,4 +12576,18 @@ footer .footer-btm .privacy-policy p a:hover {
 
 #price-calculator__item{
   width: 30px !important;
+}
+
+/* Hero section for home page */
+.video-container {
+  position: relative;
+}
+.video-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; /* This line blocks click events */
 }
