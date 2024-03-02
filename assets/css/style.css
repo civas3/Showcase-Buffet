@@ -12596,8 +12596,8 @@ footer .footer-btm .privacy-policy p a:hover {
 
 /* Google calendar */
 .google-calendar-responsive {
-  overflow: hidden;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  overflow: scroll;
+  padding-bottom: 56.25%; 
   position: relative;
   height: 0;
 }
