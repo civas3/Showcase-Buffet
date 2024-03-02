@@ -12599,7 +12599,7 @@ footer .footer-btm .privacy-policy p a:hover {
   overflow: scroll;
   padding-bottom: 56.25%; 
   position: relative;
-  height: 0;
+  height: 500px;
 }
 
 .google-calendar-responsive iframe {
