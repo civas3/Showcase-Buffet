@@ -2963,6 +2963,13 @@ header.style-3 .main-menu ul li.menu-item-has-children > i {
 .banner-section1 {
   background: linear-gradient(98.3deg, rgba(111, 73, 2, 0.2) 0.45%, rgba(0, 0, 0, 0) 162.03%), linear-gradient(269.66deg, #000203 0.28%, #09161D 99.7%);
   position: relative;
+
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: auto; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
 }
 @media (max-width: 576px) {
   .banner-section1 .banner-vector {
